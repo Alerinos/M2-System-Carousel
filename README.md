@@ -1,6 +1,6 @@
 # M2-System-Carousel-draw
 
-![screen](https://github.com/Alerinos/M2-System-Carousel-draw/blob/master/screen/1.png?raw=true)
+![screen](https://github.com/Alerinos/M2-System-Carousel/blob/master/screen/1.png?raw=true)
 System for drawing items for points  
 For the system to work, you need to connect to your base (class, function, etc.). They are marked as TODO   
 
