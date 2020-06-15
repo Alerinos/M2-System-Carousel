@@ -29,6 +29,7 @@ The class has no database connection, you must use your (PDO, MySQLi etc.)
 1.) Find the reward() function, paste your SQL into the database where it will receive the prize. The $item variable is the item ID.
 2.) Check the status of your points in the getPoints() function
 3.) In the subtractPoints() function you must subtract points from your account.
+4.) Create a folder called item and place there pictures of your items in png.
 
 $this->account - User account ID
 $this->price - Price for using the draw
