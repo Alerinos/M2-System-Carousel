@@ -183,7 +183,7 @@ try{
             <div class="jumbotron jumbotron-fluid">
                 <div class="container">
                     <h1 class="display-4">congratulations, you won</h1>
-                    <p class="lead"><img src='https://atonis.pl/Module/Template/m2/img/M2/item/<?= $reward ?>.png' /></p>
+                    <p class="lead"><img src='item/<?= $reward ?>.png' /></p>
                 </div>
             </div>
 
@@ -195,7 +195,7 @@ try{
                     $items = [...$c->contents(15), $reward, ...$c->contents(10)];
                     $stop = 15+1+10+15;
                     foreach ($items as $r){
-                        echo "<div><img src='https://atonis.pl/Module/Template/m2/img/M2/item/$r.png' /></div>";
+                        echo "<div><img src='item/$r.png' /></div>";
                     }
                 ?>
             </div>
