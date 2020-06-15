@@ -1,6 +1,6 @@
 # M2-System-Carousel-draw
 
-![screen](https://github.com/Alerinos/M2-System-Carousel-draw/blob/master/screen/1.png?raw=true)
+![screen](https://github.com/Alerinos/M2-System-Carousel/blob/master/screen/1.png?raw=true)
 System for drawing items for points  
 For the system to work, you need to connect to your base (class, function, etc.). They are marked as TODO   
 
@@ -23,4 +23,17 @@ $c->items([       // List of items to be won. [ID, Promil] (percentage * 10)
 ]);
 ```
 
+Instruction
+```
+The class has no database connection, you must use your (PDO, MySQLi etc.)
+1.) Find the reward() function, paste your SQL into the database where it will receive the prize. The $item variable is the item ID.
+2.) Check the status of your points in the getPoints() function
+3.) In the subtractPoints() function you must subtract points from your account.
+
+$this->account - User account ID
+$this->price - Price for using the draw
+```
+
 If you have a problem with the configuration, I help on discord Alerin#5559
+
+HTML and JS code is an example, you can use another one or expand the current one.
