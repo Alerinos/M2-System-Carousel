@@ -24,3 +24,5 @@ $c->items([       // List of items to be won. [ID, Promil] (percentage * 10)
 ```
 
 If you have a problem with the configuration, I help on discord Alerin#5559
+
+HTML and JS code is an example, you can use another one or expand the current one.
